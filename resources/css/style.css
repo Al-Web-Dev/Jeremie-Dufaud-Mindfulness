@@ -68,7 +68,8 @@ p {
 
 .course-date h2 {
 	color: #547b92;
-   border: 2px solid #547b9240;
+   border-top: 2px solid #547b9240;
+   border-bottom: 2px solid #547b9240;
    padding: 8px;
 }
 
