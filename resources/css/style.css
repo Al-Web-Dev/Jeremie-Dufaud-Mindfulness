@@ -112,4 +112,18 @@ background-color: #557c92;
   border: #557c92;
 }
 
+@media only screen and (min-width: 951px) {
+	.desktop {
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+
+	.desktop {
+		display: none;
+	}
+
+}
+
 
