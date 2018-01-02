@@ -48,7 +48,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
-	height: 410px;
+	height: 270px;
 	text-align: center;
 }
 .banner-about {
@@ -76,13 +76,17 @@ header {
 .about-text p {
 	text-align: left;
 }
+#about-container {
+	padding-top: 109px;	
+}
+
 .image-content {
 	color: #557c92;
 	display: inline-block;
-	padding-top: 30px;
+	padding-top: 75px;
 }
 .image-content, h1 {
-	font-size: 70px;
+	font-size: 52px;
 }
 
 p {
@@ -121,18 +125,41 @@ p {
 
 .box:hover {
 	border-color: #9abed8;
-	transition: border-color 0.3s cubic-bezier(0.4, 0, 1, 1);}
-.quote {
-	color: #e7e8e8;
-	font-family: 'Playfair Display', serif;
-	margin-top: 70px;
+	transition: border-color 0.3s cubic-bezier(0.4, 0, 1, 1);
+	text-decoration: none;
+	}
+
+
+.box a:hover {
+	text-decoration: none;
+	color: #557c92;
 }
-.quote, h2 {
-	font-size: 30px;
+
+
+@media only screen and (max-width: 430px) {
+#image-padding {
+	padding-left: 0;
+}
+.text-boxes {
+	flex-direction: column;
+}
+#margin-right {
+	width: 100%;
+}
 }
 
 
+@media only screen and (max-width: 768px) {
+	#try-now {
+		display: none;
+	}
+	.box {
+		width: 100%;
+	}
+	
+	}
 
+}
 
 @media only screen and (min-width: 951px) {
 	.desktop {
@@ -146,6 +173,11 @@ p {
 		display: none;
 	}
 
+}
+
+@media (min-width: 768px) {
+.container {
+    width: 838px;
 }
 
 
