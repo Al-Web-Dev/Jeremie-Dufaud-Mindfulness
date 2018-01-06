@@ -28,18 +28,20 @@ header {
 	align-items: center;
 	justify-content: flex-start;
 	width: 100%;
-	background-color: #dbe3e8;
+	background-color: #dbe3e863;
 	z-index: 100;
 	border-bottom: solid 1px  #b0cfe1;
-	opacity: 0.97;	
-	height: 80px;
+	height: 55px;
+}
+header, p {
+	font-size: 17px;
 }
 
 /*main content container */
 .content {
   width: 100%;
   margin: 0;
-  padding-top: 31px;
+  padding-top: 0px;
 }
 .banner {
 	background-image: url("../images/cloud-mountain-landscape.jpg");
@@ -48,7 +50,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
-	height: 270px;
+	height: 469px;
 	text-align: center;
 }
 .banner-about {
@@ -84,9 +86,21 @@ header {
 	color: #557c92;
 	display: inline-block;
 	padding-top: 75px;
+
 }
 .image-content, h1 {
-	font-size: 52px;
+	font-size: 65px;
+	margin-bottom: 38px;
+    margin-top: 14px;
+}
+.image-content h2 {
+	border-top: 1px solid #e0eae1;
+	border-bottom: 1px solid #e0eae1;
+	color:#f6f6f4;
+}
+
+.image-content p {
+	margin-bottom: 5px;
 }
 
 p {
@@ -118,9 +132,13 @@ p {
 	padding: 5px;
 	width: 30%;
 	color: #557c92;
-	margin-right: ;
-	text-align: left;
+	text-align: center;
+	justify-content: center;
 	background-color: #eeefeb8c;
+}
+
+.box h3 {
+	font-size: 30px;
 }
 
 .box:hover {
@@ -142,6 +160,7 @@ p {
 }
 .text-boxes {
 	flex-direction: column;
+	text-align: center;
 }
 #margin-right {
 	width: 100%;
