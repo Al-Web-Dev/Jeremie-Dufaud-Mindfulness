@@ -2,7 +2,10 @@ body {
 	font-size: 22px;
 	font-family: 'lato', sans-serif;
 	margin: 0;	
+	
 }
+
+
 
 a {
 	color: #547b92;
@@ -19,7 +22,11 @@ span {
 .logo {
 	display: flex;
 	flex-grow: 1;
-	padding-left: 35px;
+	padding-left: 22px;
+}
+.logo img {
+	width: 86px;
+	height: auto;
 }
 
 header {
@@ -37,11 +44,15 @@ header, p {
 	font-size: 17px;
 }
 
+
 /*main content container */
 .content {
   width: 100%;
   margin: 0;
   padding-top: 0px;
+}
+.about-content {
+	padding-top: 93px;
 }
 .banner {
 	background-image: url("../images/cloud-mountain-landscape.jpg");
@@ -50,7 +61,7 @@ header, p {
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
-	height: 469px;
+	height: 545px;
 	text-align: center;
 }
 .banner-about {
@@ -66,11 +77,18 @@ header, p {
 	
 }
 .about-text {
-	text-align: center;
-	width: 50%;
 	font-size: 20px;
-	margin-top: 48px;
-	padding: 0 32px;
+	padding: 48px 8px 0px 8px;
+	max-width: 1000px;
+	margin: 0px auto;
+	background-color: #a19d5f38;
+	border-radius: 20px;
+}
+
+.about-text img {
+	float: left;
+	padding: 8px;
+	border-radius: 30px;
 }
 .about-text h1 {
 	font-size: 40px;
@@ -89,13 +107,14 @@ header, p {
 
 }
 .image-content, h1 {
-	font-size: 65px;
+	font-size: 52px;
 	margin-bottom: 38px;
     margin-top: 14px;
 }
 .image-content h2 {
-	border-top: 1px solid #e0eae1;
-	border-bottom: 1px solid #e0eae1;
+	border-top: 1.5px solid #e0eae1;
+	border-bottom: 1.5px solid #e0eae1;
+	padding: 5px 0px 5px 0px;
 	color:#f6f6f4;
 }
 
@@ -128,13 +147,13 @@ p {
 	margin-right: 8px;
 }
 .box {
-	border: 2px solid white;
+	border: 2px solid #6789a300;
 	padding: 5px;
 	width: 30%;
 	color: #557c92;
 	text-align: center;
 	justify-content: center;
-	background-color: #eeefeb8c;
+	background-color: #b9cedc59;
 }
 
 .box h3 {
@@ -142,8 +161,10 @@ p {
 }
 
 .box:hover {
-	border-color: #9abed8;
-	transition: border-color 0.3s cubic-bezier(0.4, 0, 1, 1);
+	border-color: #feffeb70;
+	background-color: #b9cedc00;
+	transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);	
+	/*transition: background-color 0.5s cubic-bezier(0.4, 0, 1, 1);*/
 	text-decoration: none;
 	}
 
