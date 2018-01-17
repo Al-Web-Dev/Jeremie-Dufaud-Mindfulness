@@ -25,39 +25,25 @@ span {
 	padding-left: 22px;
 }
 .logo img {
-	width: 78px;
+	width: 86px;
 	height: auto;
-	padding-bottom: 4px;
 }
-.navbar {
+
+header {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	background-color: #dbe3e863;
+	z-index: 100;
+	border-bottom: solid 1px  #b0cfe1;
+	height: 55px;
+}
+header, p {
 	font-size: 17px;
-	text-align:  left;
-}
-.nav-item .active {
-	text-decoration: none;
 }
 
-.navbar-dark .navbar-brand {
-    color: #547b92;
-}
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(84, 123, 146);
-}
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #88b2d1;
-}
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: rgb(125, 169, 205);
-}
-
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    background-color: #f0f3f3;
-}
 
 /*main content container */
 .content {
