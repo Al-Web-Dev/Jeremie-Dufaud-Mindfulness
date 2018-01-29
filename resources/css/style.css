@@ -75,7 +75,7 @@ span {
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;
-	height: 545px;
+	height: 622px;
 	text-align: center;
 }
 
@@ -86,7 +86,7 @@ span {
 	background-repeat: no-repeat;
 	background-position: top;
 	width: 100%;
-	height: 796px;
+	height: 793px;
 	text-align: center;
 }
 .banner-course {
@@ -125,6 +125,16 @@ span {
 	background-repeat: no-repeat;
 	background-position: bottom;
 	width: 100%;
+	height: 829px;
+	text-align: center;
+}
+.resources-banner {
+	background-image: url("../images/street-sunset.jpg");
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 100%;
 	height: 796px;
 	text-align: center;
 }
@@ -132,20 +142,24 @@ span {
 	color: #395565;
 	padding-top: -3px;
 }
+#h1-style-2 h2 {
+	font-size: 20px;
+
+}
 .banner-about img {
 	width: 50%;
 	height: 50%;
 	padding-top: 59px;
     padding-left: 8px;	
 }
-.mindful-text {
-	/* background-color: #547b9236; */
+.mindful-text, .mindful-text-1 {
+	background-color: #547b9236;
 	color: #f5f2f2;
 	padding:  5px;
 	margin: 8px;
 	text-align:  left;
 	max-width: 922px;
-	height: 417px;
+	height: 529px;
 }
 .mindful-text, p {
 	/* overflow: scroll; */
@@ -169,6 +183,20 @@ span {
 	font-size: 40px;
 	text-align: left;
 }
+
+.resources-text h1 {
+	font-size: 82px;
+	color: #ce6d26;
+	position: relative;
+	top: 147px;
+}
+.resources-text h3 {
+	font-size: 35px;
+	color: #212120;
+	position: relative;
+	top: 149px;
+}
+
 .about-text p {
 	text-align: left;
 }
@@ -180,21 +208,18 @@ span {
 	color: #557c92;
 	display: inline-block;
 	padding-top: 75px;
-
-
 }
 .image-content, h1 {
-	font-size: 44px;
-	margin-bottom: 42px;
-	margin-top: -5px;
-	px; */
+	font-size: 55px;
+	/* margin-bottom: 1px; */
+	margin-top: 1px;
 }
 .image-content h2 {
 	border-top: 1.5px solid #e0eae1;
 	border-bottom: 1.5px solid #e0eae1;
 	padding: 5px 0px 5px 0px;
 	color:#f6f6f4;
-	margin-top: 40px;
+	margin-top: 95px;
 }
 
 .image-content p {
@@ -218,9 +243,9 @@ p {
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 20px;
-	margin-top: 10px;	
+	margin-top: 10px;
 	justify-content: center;
-	padding-top: 5px;
+	/* padding-top: 5px; */
 }
 #margin-right {
 	margin-right: 8px;
@@ -270,10 +295,14 @@ p {
 	padding: 0px;
 	float: none;
 }
-.about-banner {
-	
-	
-	}
+.image-content h2 {
+	font-size: 21px;
+	padding-top:  0px;
+	margin-top: 0px;
+}
+.banner {
+	height: 100%;
+}
 }
 
 
@@ -285,9 +314,16 @@ p {
 
 .mindful-text {
 	overflow: scroll;
+	height: 340px;
+}
+.mindful-text-1 {
+	overflow: scroll;
+	height: 555px;
 }
 h1 {
-	font-size: 33px;
+	font-size: 47px;
+	margin-top: 11px;
+	/* margin-bottom: 6%; */
 }
 h3 {
 	font-size: 19px;
