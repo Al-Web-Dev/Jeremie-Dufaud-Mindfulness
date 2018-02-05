@@ -56,7 +56,7 @@ span {
     right: 0;
     left: 0;
     z-index: 1030;
-    background-color: #f0f3f3;
+    background-color: #f0f3f3c4;
 }
 
 /*main content container */
@@ -80,7 +80,7 @@ span {
 }
 
 .banner-mindfulness {
-	background-image: url("../images/rocks-sea.jpg");
+	background-image: url("../images/rocks-sea-1.jpg");
 	margin: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -116,7 +116,21 @@ span {
 	background-color: #80808014;
 }
 .divider {
-	/* height: 15px; */
+	height: 364px;
+}
+.divider-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:  100%;
+	background-color: #fffefd;
+}
+.divider h1 {
+	font-size: 38px;
+	text-align:  center;
+	color: #547b92;
+	padding: 15px;
+	/* background-color: #91b1c4; */
 }
 .what-involve {
 	background-image: url("../images/green-mountain.jpg");
@@ -153,12 +167,12 @@ span {
     padding-left: 8px;	
 }
 .mindful-text, .mindful-text-1 {
-	background-color: #547b9236;
+	/* background-color: #547b9236; */
 	color: #f5f2f2;
 	padding:  5px;
 	margin: 8px;
 	text-align:  left;
-	max-width: 922px;
+	max-width: 914px;
 	height: 529px;
 }
 .mindful-text, p {
@@ -207,12 +221,11 @@ span {
 .image-content {
 	color: #557c92;
 	display: inline-block;
-	padding-top: 75px;
+	padding-top: 140px;
 }
 .image-content, h1 {
 	font-size: 55px;
 	/* margin-bottom: 1px; */
-	margin-top: 1px;
 }
 .image-content h2 {
 	border-top: 1.5px solid #e0eae1;
@@ -358,6 +371,10 @@ h2 {
 .row h6 {
 	font-size: 10px;
 }
+
+
+
+
 
 
 
