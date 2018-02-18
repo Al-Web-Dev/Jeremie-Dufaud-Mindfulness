@@ -5,10 +5,73 @@ body {
 	border:;
 }
 
+-wrapper {
+	width: 100%;
+	max-width: 1180px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+h1.logo {
+	text-indent: -1000px;
+}
+header nav h2 {
+	text-indent: -1000px;
+	z-index: 10;
+	font-size: 1px;
+}
+header nav {
+	float: left;
+	z-index: 12;
+}
+
+/*main content */
+#banner h1 {
+	font-size: 3.5rem;
+    padding-top: 48px;
+    color: #557c92;
+}
+
+#banner p {
+	color: #557c92;
+}
+#banner h2 {
+	color: #f6f6f4;
+	border-top: 1.5px solid #e0eae1;
+    border-bottom: 1.5px solid #e0eae1;
+}
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 0px;
+	
+	
+
+}
+.box {
+	border: 2px solid #feffeb70;
+	border-radius: 10px;
+	padding: 5px;
+	width: 182px;
+	height: 182px;
+	color: #557c92;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-shrink: 2;
+	flex-grow: 1;
+	
+}
+
 
 
 a {
 	color: #547b92;
+	text-decoration: none;
+}
+a:hover {
 	text-decoration: none;
 }
 
@@ -19,7 +82,7 @@ nav span {
 span {
 	color: #b0cfe1;
 }
-.logo {
+.logo footer {
 	display: flex;
 	flex-grow: 1;
 	padding-left: 22px;
@@ -68,6 +131,16 @@ span {
 .about-content {
 	padding-top: 63px;
 }
+#banner {
+	background-image: url("../images/cloud-mountain-landscape.jpg");
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 622px;
+	text-align: center;
+}
 .banner {
 	background-image: url("../images/cloud-mountain-landscape.jpg");
 	margin: auto;
@@ -78,6 +151,8 @@ span {
 	height: 622px;
 	text-align: center;
 }
+
+
 
 .banner-mindfulness {
 	background-image: url("../images/rocks-sea-1.jpg");
@@ -116,8 +191,26 @@ span {
 	background-color: #80808014;
 }
 .divider {
-	height: 364px;
+	height: 239px;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+.divider1 {
+	height: 272px;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.divider1 h4 {
+	color: #557c92;
+	text-align: center;
+}
+
 .divider-text {
 	display: flex;
 	justify-content: center;
@@ -141,6 +234,28 @@ span {
 	width: 100%;
 	height: 829px;
 	text-align: center;
+}
+.CTA {
+	border: 2px solid white;
+	padding: 5px;
+	color: white;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 89px;
+	border-radius: 5px;
+}
+.subscribe {
+	background-image: url("../images/sunset-sea.jpg");
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 100%;
+	height: 829px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .resources-banner {
 	background-image: url("../images/street-sunset.jpg");
@@ -221,18 +336,16 @@ span {
 .image-content {
 	color: #557c92;
 	display: inline-block;
-	padding-top: 140px;
+	padding-top: 98px;
 }
-.image-content, h1 {
-	font-size: 55px;
-	/* margin-bottom: 1px; */
-}
-.image-content h2 {
+ 
+
+.image-content  h2 {
 	border-top: 1.5px solid #e0eae1;
 	border-bottom: 1.5px solid #e0eae1;
 	padding: 5px 0px 5px 0px;
 	color:#f6f6f4;
-	margin-top: 95px;
+	margin-top: 40px;
 }
 
 .image-content p {
@@ -261,9 +374,12 @@ p {
 	/* padding-top: 5px; */
 }
 #margin-right {
-	margin-right: 8px;
+	margin-right: 42px;
+	margin-top: 8px;
 }
-.box {
+
+}
+.box-old {
 	border: 2px solid #6789a300;
 	padding: 5px;
 	width: 30%;
@@ -273,13 +389,13 @@ p {
 	background-color: #b9cedc59;
 }
 
-.box h3 {
+.box-old h3 {
 	/* font-size: 30px; */
 }
 
 .box:hover {
-	border-color: #feffeb70;
-	background-color: #b9cedc00;
+	border-color: #6789a300;
+	background-color: #b9cedc59;
 	transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);	
 	/*transition: background-color 0.5s cubic-bezier(0.4, 0, 1, 1);*/
 	text-decoration: none;
@@ -296,12 +412,24 @@ p {
 #image-padding {
 	padding-left: 0;
 }
+.flex-container {
+	flex-wrap: wrap;
+}
+.box {
+	height: 80px;
+}
+#margin-right {
+	margin-right: 0px;
+}
 .text-boxes {
 	flex-direction: column;
 	text-align: center;
+	width: 100%;
 }
 #margin-right {
-	width: 100%;
+	margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 5px;
 }
 .about-text img {
 	width: 100%;
@@ -318,12 +446,35 @@ p {
 }
 }
 
+@media only screen and (max-width: 600px) {
+	#margin-R {
+	margin-right: 5px;
+	display: none;
+}
+#margin-right {
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+.image-content {
+	padding-top: 44px;
+}
 
-@media only screen and (max-width: 680px) {
+
+
+}
+
+@media only screen and (max-width: 828px) {
 #try-now {
 		display: ;	}
 .box {
-	width: 100%;}
+	width: 150px;
+    height: 150px;}
+
+#margin-L {
+	margin-left: 5px;
+}
+
 
 .mindful-text {
 	overflow: scroll;
@@ -351,6 +502,15 @@ h2 {
 	.desktop {
 		display: inline-block;
 	}
+	#banner {
+		height: 657px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	#banner {
+		height: 708px;
+	}
 }
 
 @media only screen and (max-width: 950px) {
@@ -372,7 +532,36 @@ h2 {
 	font-size: 10px;
 }
 
-
+footer img {
+	width: 78px;
+	height: auto;
+	padding-bottom: 4px;
+}
+.facebook {
+	width: 40px;
+	height: auto;
+}
+footer li {
+	display: inline-block;
+	padding-right: 2px;
+	padding-top: 20px;
+	font-size: 17px;
+	text-align: center;
+	margin: 0 auto;
+	color: #527b93;
+}
+footer {
+	text-align: center;
+}
+.logo-sm{
+	display: flex;
+	flex-direction: column;
+	color: blue;
+	padding: 0px;
+}
+ul {
+	padding: 0;
+}
 
 
 
