@@ -62,7 +62,6 @@ header nav {
 	align-items: center;
 	flex-shrink: 2;
 	flex-grow: 1;
-	
 }
 
 
@@ -314,16 +313,16 @@ span {
 }
 
 .resources-text h1 {
-	font-size: 82px;
+	font-size: 58px;
 	color: #ce6d26;
 	position: relative;
-	top: 147px;
+	top: 164px;
 }
 .resources-text h3 {
-	font-size: 35px;
-	color: #212120;
+	font-size: 24px;
+	color: #ffffff;
 	position: relative;
-	top: 149px;
+	top: 145px;
 }
 
 .about-text p {
@@ -483,6 +482,10 @@ p {
 .mindful-text-1 {
 	overflow: scroll;
 	height: 555px;
+}
+.about-text {
+	overflow: scroll;
+	height: 898px;
 }
 h1 {
 	font-size: 47px;
