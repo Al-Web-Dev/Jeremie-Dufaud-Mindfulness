@@ -78,7 +78,10 @@ header nav {
 	flex-grow: 1;
 }
 
-
+.resources-text a {
+	color: white;
+	font-size: 26px;
+}
 
 a {
 	color: #547b92;
@@ -187,7 +190,7 @@ span {
 	height: 848px;
 	text-align: center;
 }
-.about-banner {
+.banner-aboutme {
 	background-image: url("../images/jeremie-park.jpg");
 	margin: auto;
 	background-size: cover;
@@ -280,6 +283,18 @@ span {
 	height: 796px;
 	text-align: center;
 }
+
+.contact-banner {
+	background-image: url("../images/clouds.jpg");
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 100%;
+	height: 796px;
+	text-align: center;
+}
+
 #h1-style h1 {
 	color: #395565;
 	padding-top: -3px;
@@ -330,13 +345,15 @@ span {
 	font-size: 58px;
 	color: #ce6d26;
 	position: relative;
-	top: 164px;
+	top: 267px;
 }
 .resources-text h3 {
 	font-size: 24px;
 	color: #ffffff;
 	position: relative;
-	top: 145px;
+	top: 252px;
+	padding-top: 40px;
+	line-height: 37px;
 }
 
 .about-text p {
@@ -537,7 +554,7 @@ p {
 }
 h1 {
 	font-size: 47px;
-	margin-top: 11px;
+	margin-top: 15px;
 	/* margin-bottom: 6%; */
 }
 h3 {
